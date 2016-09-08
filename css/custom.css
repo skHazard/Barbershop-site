@@ -1,0 +1,53 @@
+
+body {
+	font-family: "Sans serif";
+	background-image: url("../img/background.jpg");
+	background-position: absolute;
+}
+
+.bg {
+	background: url("../img/concrete2.jpg") repeat-x center center;
+	position: fixed;
+	width: 100%;
+	height: 350px; /*same height as jumbotron */
+	top:0;
+	left:0;
+	z-index: -1;
+}
+
+.jumbotron {
+	height: auto;
+	font-family: "Impact";
+	color: white;
+	text-shadow: #444 0 2px 2px;
+	background:transparent;
+}
+
+.jumbotronwidth
+{
+	max-width: 100%;
+}
+
+.container, .container-fluid
+{
+	color: white;
+	text-shadow: #444 0 2px 2px;
+}
+
+h2 small
+{
+	color: #fae596;
+	text-shadow: #444 0 2px 2px;
+}
+
+.logo
+{
+	margin: 0px;
+	height: 500px;
+	width: 250px;	
+}
+
+#aboutus
+{
+overflow: hidden;
+}
